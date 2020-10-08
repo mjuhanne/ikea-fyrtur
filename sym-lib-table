@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ikea-fyrtur)(type Legacy)(uri ${KIPRJMOD}/ikea-fyrtur.lib)(options "")(descr ""))
+)

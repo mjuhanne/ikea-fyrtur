@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ikea-fyrtur)(type KiCad)(uri ${KIPRJMOD}/ikea-fyrtur.pretty)(options "")(descr ""))
+)
