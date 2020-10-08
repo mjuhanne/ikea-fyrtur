@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ArmCortex-SWD-TagConnect-2x3
+D Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf
+$ENDCMP
+#
+$CMP SS8050-G
+D 0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92
+K S8050 NPN Low Voltage High Current Transistor
+F https://www.mouser.fi/datasheet/2/80/SS8050-G_RevA181526-1481562.pdf
+$ENDCMP
+#
+$CMP WS2812-TH
+D RGB LED with integrated controller
+K RGB LED NeoPixel addressable
+F https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+$ENDCMP
+#
+#End Doc Library
