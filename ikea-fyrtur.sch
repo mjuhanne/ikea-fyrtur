@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Ikea Fyrtur WiFi module"
 Date "2020-10-07"
-Rev "0.7"
+Rev "0.71"
 Comp "Marko Juhanne"
 Comment1 ""
 Comment2 ""
@@ -453,7 +453,7 @@ L Device:R_Small R9
 U 1 1 5F34CF54
 P 6150 4000
 F 0 "R9" V 5954 4000 50  0000 C CNN
-F 1 "1K" V 6045 4000 50  0000 C CNN
+F 1 "120R" V 6045 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 6150 4000 50  0001 C CNN
 F 3 "~" H 6150 4000 50  0001 C CNN
 F 4 "C21190" H 6150 4000 50  0001 C CNN "LCSC Part"
@@ -719,7 +719,7 @@ L Device:R_Small R16
 U 1 1 5F3646D9
 P 5625 6800
 F 0 "R16" V 5429 6800 50  0000 C CNN
-F 1 "33K (omit by default)" V 5325 6450 50  0000 C CNN
+F 1 "33K (omit by default)" V 5825 6275 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5625 6800 50  0001 C CNN
 F 3 "~" H 5625 6800 50  0001 C CNN
 F 4 "0" H 5625 6800 50  0001 C CNN "JLCPCB BOM"

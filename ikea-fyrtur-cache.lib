@@ -306,7 +306,7 @@ ENDDEF
 DEF ikea-fyrtur_Fyrtur-motor-connector J 0 40 Y Y 1 F N
 F0 "J" 0 200 50 H V C CNN
 F1 "ikea-fyrtur_Fyrtur-motor-connector" 0 -300 50 H V C CNN
-F2 "omat:Fyrtur-Motor-Connector" -200 -300 50 H I C CNN
+F2 "ikea-fyrtur:Fyrtyr-Motor-Connector" -200 -300 50 H I C CNN
 F3 "" -200 -300 50 H I C CNN
 DRAW
 S -200 150 200 -250 0 1 0 N
@@ -345,7 +345,7 @@ ENDDEF
 DEF ikea-fyrtur_WS2812-TH D 0 10 Y Y 1 F N
 F0 "D" 200 225 50 H V R BNN
 F1 "ikea-fyrtur_WS2812-TH" 50 -225 50 H V L TNN
-F2 "omat:WS2812-TH" 50 -300 50 H I L TNN
+F2 "ikea-fyrtur:WS2812-TH" 50 -300 50 H I L TNN
 F3 "" 100 -375 50 H I L TNN
 $FPLIST
  LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*
