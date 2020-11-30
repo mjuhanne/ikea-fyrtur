@@ -30,7 +30,7 @@ Programming can be done via the 2mm pitch UART header using FTDI adapter. Altern
  The PCB can also be used as a plain interface board (with buttons and LED populated, with optional temperature sensor). In this case only the following components are needed:
  
 #### Connector header:
-  - J1 EXT_CTRL (1x7, 2mm pitch)
+  - J1 EXT_CTRL (1x7, 2mm pitch) (or solder female Dupont wires directly to the header)
 
 #### Buttons and debounce circuitry:
  - Panasonic right angle tactile switches (EVQ-P7L01P)
@@ -46,7 +46,7 @@ Programming can be done via the 2mm pitch UART header using FTDI adapter. Altern
  - U3 (SI7021 / HTU21D)
  - R6, R4 (10k)
  - C5 (100nF)
- - J6 I2C header (1x4, 2mm pitch)
+ - J6 I2C header (1x4, 2mm pitch) (or solder female Dupont wires directly to the header)
 
 ### Example wiring for ESP32 (DevKitC V4)
   - J1:1 <--> GND
@@ -58,7 +58,7 @@ Programming can be done via the 2mm pitch UART header using FTDI adapter. Altern
   - J1:7 <--> D18 (LED)
  
 #### Optional I2C temperature sensor:
-  - J6:3 <--> D6 (SCL)
+  - J6:3 <--> D19 (SCL)
   - J6:4 <--> D13 (SDA)
  
 
